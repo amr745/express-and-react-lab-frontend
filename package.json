@@ -37,5 +37,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "bootstrap-css": "^4.0.0-alpha.5",
+    "file-loader": "^6.2.0"
   }
 }

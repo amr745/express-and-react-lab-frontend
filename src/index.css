@@ -20,7 +20,7 @@ nav {
 button {
   appearance: button;
   backface-visibility: hidden;
-  background-color: #white;
+  background-color: white;
   border-radius: 6px;
   border-width: 0;
   box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
@@ -71,4 +71,34 @@ button:hover {
 .social-link:hover {
   width: 50px;
   height: 50px;
+}
+
+.aboutPic, .homePic {
+  width: 300px;
+  height: 300px;
+  border-radius: 90px;
+  object-fit: cover;
+}
+
+.homePic {
+  /* float: right; */
+}
+
+.homePar {
+  text-align: justify;
+}
+
+.projectPics {
+  width: 1000px;
+  height: 1000px;
+  border-radius: 90px;
+  object-fit: cover;
+}
+
+p {
+  font-size: 24px;
+}
+
+.aboutPar {
+  text-align: justify;
 }
